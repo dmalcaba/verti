@@ -1,14 +1,22 @@
 # verti
 Yet another Jekyll theme using Verti by HTML5 UP
 
+## Features
+
+- Google Analytics
+
 ### Running the Site Locally
 
 `$ docker run -d --name verti --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:3.8 jekyll serve --config _config.yml,_config_dev.yml --watch --drafts`
 
 
-
 ---
 
+# Credits
+
+Original README from HTML5 UP:
+
+```
 Verti by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
@@ -39,3 +47,4 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+```
